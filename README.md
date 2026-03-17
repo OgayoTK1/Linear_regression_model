@@ -16,7 +16,7 @@ URL: https://www.kaggle.com/datasets/afnansaifafnan/electric-car-performance-and
 
 Dataset Overview:
 
-478 EV models, 22 columns including battery specs, range, motor torque, efficiency, dimensions, and drivetrain type.
+478 rows, 22 columns including battery specs, range, motor torque, efficiency, dimensions, and drivetrain type.
 
 Rich variety of numeric and categorical features, suitable for regression modeling.
 
