@@ -14,6 +14,7 @@ Source: Kaggle
 
 URL: https://www.kaggle.com/datasets/afnansaifafnan/electric-car-performance-and-battery-dataset
 
+
 Dataset Overview:
 
 478 rows, 22 columns including battery specs, range, motor torque, efficiency, dimensions, and drivetrain type.
@@ -31,7 +32,7 @@ Battery capacity (battery_capacity_kwh) and efficiency (efficiency_wh_per_km) ha
 
 Vehicle dimensions and torque show moderate correlation.
 
-Feature Distributions and  Scatterplots
+**Feature Distributions and  Scatterplots**
 
 
 battery_capacity_kwh vs electric_range_km scatter shows a positive linear trend.
@@ -45,7 +46,7 @@ The visualizations informed feature selection and scaling, ensuring the regressi
 
 Three regression models were implemented:
 
-Linear Regression (Gradient Descent + scikit-learn)
+**Linear Regression** (Gradient Descent + scikit-learn)
 
 Final RMSE: 24.23 km
 
@@ -53,7 +54,7 @@ R²: 0.9445
 
 Interpreted coefficients for features like battery capacity, vehicle height, and efficiency.
 
-Decision Tree Regressor
+**Decision Tree Regressor**
 
 Final RMSE: 22.29 km
 
@@ -61,17 +62,20 @@ R²: 0.9530
 
 Feature importance shows battery_capacity_kwh dominates (~84% influence).
 
-Random Forest Regressor
+**Random Forest Regressor**
+
 
 Final RMSE: 24.88 km
 
 R²: 0.9415
 
-Top features: battery capacity, fast charging power, top speed.
+**Top features:** battery capacity, fast charging power, top speed.
 
-Best Model: Decision Tree Regressor (lowest RMSE).
 
-Model Saving & Single Prediction
+**Best Model:** Decision Tree Regressor (lowest RMSE).
+
+
+**Model Saving & Single Prediction**
 
 Best model saved as: models/best_model.pkl
 
