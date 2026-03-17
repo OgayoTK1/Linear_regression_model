@@ -33,6 +33,7 @@ Vehicle dimensions and torque show moderate correlation.
 
 Feature Distributions and  Scatterplots
 
+
 battery_capacity_kwh vs electric_range_km scatter shows a positive linear trend.
 
 efficiency_wh_per_km vs electric_range_km scatter shows negative correlation as expected.
