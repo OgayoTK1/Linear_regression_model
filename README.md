@@ -2,6 +2,7 @@
 **EVision**: *Electric Vehicle Range Prediction*
 
 **Mission**
+
 My mission is to advance sustainable transportation by providing insights that improve EV adoption, optimize energy efficiency, and reduce greenhouse gas emissions globally.
 EV users and fleet operators face uncertainty about driving range due to variable vehicle specifications. Accurate range prediction reduces consumer range anxiety, helps plan efficient trips, and supports the global transition to clean mobility
 
@@ -23,6 +24,7 @@ Contains missing values, handled via imputation, and duplicate-free.
 
 **Data Visualization & Interpretation**
 
+
 Correlation Heatmap – Shows which features strongly influence electric range.
 
 Battery capacity (battery_capacity_kwh) and efficiency (efficiency_wh_per_km) have the highest correlations.
@@ -38,6 +40,7 @@ efficiency_wh_per_km vs electric_range_km scatter shows negative correlation as 
 The visualizations informed feature selection and scaling, ensuring the regression model captures key drivers of range.
 
 **Model Implementation**
+
 
 Three regression models were implemented:
 
