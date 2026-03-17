@@ -2,6 +2,7 @@
 **EVision**: *Electric Vehicle Range Prediction*
 
 **Mission & Problem**
+
 My mission is to advance sustainable transportation by providing insights that improve EV adoption, optimize energy efficiency, and reduce greenhouse gas emissions globally.
 EV users often struggle to know how far they can drive due to the variation in battery capacity, motor power, aerodynamics, and vehicle weight. Fleet operators need accurate range predictions for trip planning, route optimization, and energy-efficient operations. This project addresses the electric range prediction problem using regression analysis on technical EV specifications.
 
