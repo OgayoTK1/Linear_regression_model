@@ -1,0 +1,21 @@
+{
+  "best_model": "Decision Tree",
+  "rmse_km": 22.2899,
+  "r2_score": 0.953,
+  "features": [
+    "top_speed_kmh",
+    "battery_capacity_kwh",
+    "number_of_cells",
+    "torque_nm",
+    "efficiency_wh_per_km",
+    "acceleration_0_100_s",
+    "fast_charging_power_kw_dc",
+    "towing_capacity_kg",
+    "seats",
+    "length_mm",
+    "width_mm",
+    "height_mm"
+  ],
+  "target": "electric_range_km",
+  "feature_count": 12
+}
