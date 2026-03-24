@@ -32,9 +32,8 @@ class PredictionPage extends StatefulWidget {
 
 class _PredictionPageState extends State<PredictionPage> {
   // For Android emulator use http://10.0.2.2:8000/predict
-  // For physical device use your computer IP e.g. http://192.168.1.45:8000/predict
-  // For production use https://ev-range-predictor.onrender.com/predict
-  static const String _apiUrl = 'http://10.0.2.2:8000/predict';
+  static const String _apiUrl =
+      'https://linear-regression-model-3-ip44.onrender.com/predict';
 
   final _formKey = GlobalKey<FormState>();
 
