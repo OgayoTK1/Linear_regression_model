@@ -1,3 +1,5 @@
+// ignore_for_file: duplicate_ignore, curly_braces_in_flow_control_structures
+
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -334,6 +336,7 @@ class _PredictionPageState extends State<PredictionPage> {
                   if (v == null || v.isEmpty) return 'Required';
                   final n = double.tryParse(v);
                   if (n == null || n < 2000 || n > 7000)
+                    // ignore: curly_braces_in_flow_control_structures
                     return '2000 – 7000 mm';
                   return null;
                 },
