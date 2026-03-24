@@ -452,7 +452,7 @@ class _PredictionPageState extends State<PredictionPage> {
                         ),
                         const SizedBox(height: 6),
                         const Text(
-                          '✅  Prediction successful',
+                          '  Prediction successful',
                           style: TextStyle(
                             fontSize: 12,
                             color: Color(0xFF0D7377),

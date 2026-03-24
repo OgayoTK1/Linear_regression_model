@@ -43,7 +43,7 @@ def load_artifacts():
 load_artifacts()
 
 
-# ── Pydantic Schema — 12 fields matching feature_names.pkl exactly ────────────
+# Pydantic Schema — 12 fields matching feature_names.pkl exactly 
 class EVInput(BaseModel):
     top_speed_kmh: float = Field(
         ..., ge=50.0, le=500.0,
@@ -113,7 +113,7 @@ class PredictionResponse(BaseModel):
     status: str
 
 
-# ── Root ──────────────────────────────────────────────────────────────────────
+#  Root
 @app.get("/", tags=["Status"])
 async def root():
     return {
@@ -123,7 +123,7 @@ async def root():
     }
 
 
-# ── Health Check ──────────────────────────────────────────────────────────────
+# Health Check
 @app.get("/health", tags=["Status"])
 async def health():
     return {
@@ -134,7 +134,7 @@ async def health():
     }
 
 
-# ── Prediction Endpoint ───────────────────────────────────────────────────────
+# Prediction Endpoint
 @app.post("/predict", response_model=PredictionResponse, tags=["Prediction"])
 async def predict_range(ev: EVInput):
     try:
@@ -166,7 +166,7 @@ async def predict_range(ev: EVInput):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# ── Retraining Endpoint ───────────────────────────────────────────────────────
+# Retraining Endpoint
 def retrain_pipeline(csv_bytes: bytes):
     df = pd.read_csv(io.StringIO(csv_bytes.decode("utf-8")))
 
