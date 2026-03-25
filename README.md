@@ -84,6 +84,8 @@ Scaler saved as: models/scaler.pkl
 Feature names saved as: models/feature_names.pkl
 
 
+
+
 **README.md From the second task till the end**
 
 # ⚡ Electric Vehicle Battery Range Prediction
@@ -106,7 +108,7 @@ via a FastAPI REST API and consumed by a Flutter mobile application.
   efficiency_wh_per_km, acceleration_0_100_s, fast_charging_power_kw_dc,
   towing_capacity_kg, seats, length_mm, width_mm, height_mm
 
----
+
 
 ## Model Performance
 
@@ -263,7 +265,7 @@ static const String _apiUrl = 'https://linear-regression-model-3-ip44.onrender.c
 ## Video Demo
 
 
----
+
 
 ## API Endpoints Summary
 
@@ -277,5 +279,4 @@ static const String _apiUrl = 'https://linear-regression-model-3-ip44.onrender.c
 | GET | `/redoc` | ReDoc API documentation |
 ```
 
----
 
